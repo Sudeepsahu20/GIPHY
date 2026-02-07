@@ -7,7 +7,7 @@ import GifSearch from './GifSearch.jsx';
 const Header = () => {
     const [categories,setCategories]=useState([]);
     const [showCategories,setShowCategories]=useState(false);
-    const {gif,gifs,filter,setFilter,favorites}=GifState();
+    const {gif,filter,setFilter,favorites}=GifState();
 
     const fetchGifCategories=async()=>{
           const {data}=await gif.categories();

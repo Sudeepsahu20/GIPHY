@@ -11,7 +11,8 @@ const FollowOn = () => {
           <FaYoutube size={20} />
         </a>
         <a href="https://www.instagram.com/roadsidecoder">
-          <FaInstagram size={20} />
+          <PiSnapchatLogoLight
+           size={20} />
         </a>
         <a href="https://www.twitter.com/piyush_eon">
           <FaXTwitter size={20} />
